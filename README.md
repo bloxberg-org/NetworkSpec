@@ -11,3 +11,4 @@ To join the bloxberg network:
 4.	Upon parity launch, it will also generate an enode address to download the blockchain. Add this address to bootnodes.txt file
 5.	Run parity again with ‘parity --tracing on –config exampleNode.toml’ and the blockchain should initialize and start downloading the current state of the chain from the bootnodes.
 6.	We recommend daemonizing the process and adding as a startup process to the server so the node is stable.
+
