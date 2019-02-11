@@ -1,4 +1,4 @@
-# File node0.toml
+# File exampleNode.toml
 
 [parity]
 chain = "bloxberg.json"
@@ -20,10 +20,12 @@ interface = "local"
 origins = ["none"]
 
 [account]
+#CHANGE UNLOCKED ACCOUNT TO YOUR VALIDATOR NODE
 unlock = ["0xaA84378fA41da83a9B6523bA46E45A664FbEBFC8"]
 password = ["exampleNode.pwd"]
 
 [mining]
+#CHANGE ENGINE SIGNER TO VALIDATOR ADDRESS
 engine_signer = "0xaa84378fa41da83a9b6523ba46e45a664fbebfc8"
 reseal_on_txs = "none"
 force_sealing = true
