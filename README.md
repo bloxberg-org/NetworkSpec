@@ -1,11 +1,13 @@
 # NetworkSpec
 Bloxberg Genesis file and Bootnodes
 
+We recommend using an Ubuntu server on 16.04 or 18.04 on a fresh install to ensure compatibility. Other operating systems work as well, but commands may differ.
+
 In order to connect to the bloxberg network, you will need to install the latest stable parity version (https://github.com/paritytech/parity-ethereum) on the server. You will also find the genesis file, an example config, and the initial bootnodes located here.
 
 Furthermore, you must install a clock synchronizer as the consensus algorithm that bloxberg relies on (AuRa) establishes that the clocks must be synced between the validation nodes. You can utilize chrony or NTP for this purpose, you can find brief instructions (Only Installation is necessary) for your OS here: https://www.tecmint.com/install-chrony-in-centos-ubuntu-linux/
 
-To join the bloxberg network:
+To join the bloxberg network after installing parity:
 
 1.	Change the account section in exampleNode.toml to your node address and password to unlock the account. Also change the engine_signer section with your validator address.
 2.	Launch parity with ‘parity --tracing on –config exampleNode.toml’. This will throw an error because the account doesn’t exist but will generate the folder structure.
