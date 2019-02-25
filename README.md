@@ -2,10 +2,10 @@
 Bloxberg Genesis file and Bootnodes
 
 Remote Machine Minimum System Requirements:
-*Ubuntu 16.04 or 18.04 Image, 
-*Minimum 1 CPU, 
-*Minimum 1GB Memory, 
-*Anything > 4GB will be good, but may need to be upgraded in the future,
+* Ubuntu 16.04 or 18.04 Image, 
+* Minimum 1 CPU, 
+* Minimum 1GB Memory, 
+* Anything > 4GB will be good, but may need to be upgraded in the future,
 
 In order to connect to the bloxberg network, you will need to install the latest stable parity version (https://github.com/paritytech/parity-ethereum) on the server. You will also find the genesis file, an example config, and the initial bootnodes located here.
 
