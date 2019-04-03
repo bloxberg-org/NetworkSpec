@@ -7,8 +7,6 @@ base_path = "bloxbergData"
 [network]
 port = 30303
 reserved_peers = "./bootnodes.txt"
-min_peers = 10
-max_peers = 20
 nat="extip:*INSERT YOUR EXTERNAL IP*"
 
 [rpc]
