@@ -13,7 +13,7 @@ Furthermore, you must install a clock synchronizer as the consensus algorithm th
 
 To join the bloxberg network after installing parity:
 
-1.	Change the account section in exampleNode.toml to your node address and password to unlock the account. Also change the engine_signer section with your validator address.
+1.	Change the account section in exampleNode.toml to your node address and password to unlock the account. Change the engine_signer section with your validator address. Also, change the nat parameter under [network] to your external IP.
 2.	Launch parity with ‘parity --tracing on –config exampleNode.toml’. This will throw an error because the account doesn’t exist but will generate the folder structure.
 3.	Add your keystore (UTC file) to ./bloxbergData/exampleNode/keys/Bloxberg
 4.	Upon parity launch, it will also generate an enode address to download the blockchain. Add this address to bootnodes.txt file
